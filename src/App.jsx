@@ -8,19 +8,14 @@ const INITIAL_ARTICLES = [
   { id: 2, title: "The GTM Positioning Mistake That Costs You Deals", excerpt: "Your positioning is not just your tagline. It is the entire frame through which a buyer decides if you are worth their time.", body: "Your positioning is not just your tagline. It is the entire frame through which a buyer decides if you are worth their time.\n\nMost founder-led companies make the same GTM positioning mistake: they lead with what they do instead of what changes for the buyer.\n\nHere is the difference:\n\nWeak: We provide AI-powered workflow automation software.\n\nStrong: We help operations teams eliminate 40% of manual reporting so they can focus on decisions that actually move the business.\n\nThe first describes a product. The second describes a transformation.\n\nBuyers do not buy products — they buy outcomes. When your positioning leads with the outcome, you immediately answer the question every buyer is silently asking: What is in it for me?\n\nIf your pipeline is full of stalled deals and long sales cycles, revisit your positioning first. Nine times out of ten, that is where the breakdown lives.", date: "2026-04-02", readTime: "5 min read", published: true },
 ];
 
-const SERVICES = ["Sales Foundations: Prospecting & Pipeline Growth", "Marketing Foundations: Brand & Awareness Building", "GTM Foundations: Clarity & Strategic Direction", "Short-Term Project Work: Immediate, Execution-Heavy Support"];
-
+const SERVICES = ["Sales Foundations: Prospecting & Pipeline Growth", "Marketing Foundations: Brand & Awareness Building", "Advisory Foundations: Clarity & Strategic Direction", "Short-Term Project Work: Immediate, Execution-Heavy Support"];
 const ENDORSEMENTS = [
   "Demonstrates exceptional grit and persistence — repeatedly wins deals others have already given up on.",
   "Gifted with high mental horsepower; consistently outthinks competitors.",
   "Transparent, honest, and trusted by executive stakeholders.",
   "Brings fresh perspective, innovation, and strong strategic thinking to complex accounts.",
-  
   "One of my most insightful and creative students. I recommend her without reservation.",
   "Always professional and responsible. She was instrumental in helping me create an advertising plan that fit my budget and my needs. I would absolutely recommend working with her.",
-
-
- 
   "She handled complicated assignments with aplomb and efficiency, and her positive attitude provided a great model to her subordinates and colleagues.",
 ];
 
