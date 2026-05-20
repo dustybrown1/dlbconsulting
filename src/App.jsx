@@ -298,7 +298,7 @@ export default function App() {
           <h3 style={{ fontFamily: "Orbitron", fontSize: isMobile ? 18 : 22, fontWeight: 700, color: "#fff", marginBottom: 20, textAlign: "center" }}>How to Get Started</h3>
           <p style={{ color: "#94a3b8", fontSize: 17, lineHeight: 2, textAlign: "center" }}>
             If you're interested in working together,<br />
-            • Simply reach out through the contact form below, or<br />
+            • Simply reach out through the contact form below,<br />
             • Or book a discovery call with me now, or connect with me on LinkedIn:
           </p>
           <div style={{ display: "flex", flexWrap: "wrap", gap: 14, justifyContent: "center", marginTop: 20 }}>
