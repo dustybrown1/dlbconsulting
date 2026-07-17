@@ -213,7 +213,7 @@ export default function App() {
       </div>
 
 
-      <div id="services" style={{ position: "relative", zIndex: 2, padding: isMobile ? "60px 20px" : "100px 64px", maxWidth: 1100, margin: "0 auto", display: "flex", flexDirection: "column", alignItems: "center" }}>
+      <div id="services" style={{ position: "relative", zIndex: 2, padding: isMobile ? "60px 20px" : "80px 64px", maxWidth: 1100, margin: "0 auto", display: "flex", flexDirection: "column", alignItems: "center" }}>
         <div style={{ textAlign: "center", marginBottom: 52 }}>
           <div style={{ fontFamily: "Orbitron", fontSize: 10, letterSpacing: 6, color: "#00b4ff", marginBottom: 14 }}>MISSION CAPABILITIES</div>
           <h2 style={{ fontFamily: "Orbitron", fontSize: isMobile ? 26 : 38, fontWeight: 700, color: "#fff" }}>SERVICES</h2>
