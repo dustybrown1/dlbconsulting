@@ -157,7 +157,7 @@ export default function App() {
           <span style={{ color: "#fff", display: "block" }}>STRATEGIC GTM</span>
           <span style={{ background: "linear-gradient(135deg,#00b4ff,#0066ff)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent", display: "block" }}>CLARITY</span>
           <span style={{ color: "#fff", display: "block" }}>FOR AMBITIOUS</span>
-          <span style={{ color: "rgba(255,255,255,0.3)", display: "block", fontSize: isMobile ? "0.45em" : "0.5em", letterSpacing: 7, marginTop: 10 }}>GROWTH</span>
+          <span style={{ color: "rgba(255,255,255,0.3)", display: "block", fontSize: isMobile ? "0.45em" : "0.5em", letterSpacing: 7, marginTop: 10 }}>BUSINESS GROWTH</span>
         </h1>
         <p style={{ color: "#94a3b8", fontSize: isMobile ? 17 : 19, maxWidth: 520, lineHeight: 1.8, marginBottom: 16, fontWeight: 400 }}>
           Dusty-Lynn Brown, MSOLQ — bringing enterprise-grade sales and marketing strategy to ambitious businesses ready to scale.
