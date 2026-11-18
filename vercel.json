@@ -1,0 +1,29 @@
+{
+  "redirects": [
+    {
+      "source": "/services.html",
+      "destination": "/#summary",
+      "permanent": true
+    },
+    {
+      "source": "/industries.html",
+      "destination": "/#experience",
+      "permanent": true
+    },
+    {
+      "source": "/about.html",
+      "destination": "/#summary",
+      "permanent": true
+    },
+    {
+      "source": "/field-notes.html",
+      "destination": "/#writing",
+      "permanent": true
+    },
+    {
+      "source": "/contact.html",
+      "destination": "/#contact",
+      "permanent": true
+    }
+  ]
+}
