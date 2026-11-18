@@ -28,7 +28,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;700;900&family=Rajdhani:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
-:root{--bg:#000;--char:#111418;--char2:#171b21;--line:#2a2f37;--gold:#C9A227;--gold-hi:#E6C558;--text-hi:#F3F1EA;--text-mid:#B9BDC6;--text-lo:#8A909C;--blue:#4FC3F7}
+:root{--bg:#23262b;--char:#2c3036;--char2:#32363c;--line:#4a4f57;--gold:#C9A227;--gold-hi:#E6C558;--text-hi:#F3F1EA;--text-mid:#B9BDC6;--text-lo:#8A909C;--blue:#4FC3F7}
 *{box-sizing:border-box}
 html{scroll-behavior:smooth;scroll-padding-top:72px;-webkit-text-size-adjust:100%;text-size-adjust:100%}
 body{margin:0;padding-top:64px;background:var(--bg);color:var(--text-mid);font-family:'Inter',sans-serif;font-size:16px;line-height:1.65}
@@ -42,7 +42,7 @@ section{padding:44px 0}
 .sec-title{font-size:clamp(24px,4vw,34px);margin:0 0 14px;line-height:1.2}
 .lead{max-width:720px;margin:0 0 24px;color:var(--text-mid)}
 /* nav */
-nav{position:fixed;top:0;left:0;right:0;height:64px;background:rgba(8,11,18,.96);border-bottom:1px solid var(--line);z-index:50;backdrop-filter:blur(6px)}
+nav{position:fixed;top:0;left:0;right:0;height:64px;background:rgba(35,38,43,.97);border-bottom:1px solid var(--line);z-index:50;backdrop-filter:blur(6px)}
 nav .wrap{display:flex;align-items:center;justify-content:space-between;height:64px}
 .brand{font-family:'Orbitron',sans-serif;font-weight:700;color:var(--text-hi);text-decoration:none;letter-spacing:.08em;font-size:15px;white-space:nowrap}
 .brand span{color:var(--gold)}
@@ -54,14 +54,14 @@ nav .wrap{display:flex;align-items:center;justify-content:space-between;height:6
 .burger{display:none;background:none;border:1px solid var(--line);color:var(--text-hi);border-radius:8px;width:44px;height:40px;font-size:20px;cursor:pointer}
 @media(max-width:900px){
  .burger{display:block}
- .links{display:none;position:absolute;top:64px;left:0;right:0;flex-direction:column;align-items:stretch;gap:0;background:#080B12;border-bottom:1px solid var(--line);padding:8px 20px 16px}
+ .links{display:none;position:absolute;top:64px;left:0;right:0;flex-direction:column;align-items:stretch;gap:0;background:#23262b;border-bottom:1px solid var(--line);padding:8px 20px 16px}
  .links.open{display:flex}
  .links a{padding:12px 0;border-bottom:1px solid var(--line)}
  .links a.cta{text-align:center;margin-top:12px;border-radius:10px}
 }
 @media(max-width:420px){.brand{font-size:13px;letter-spacing:.05em}}
 /* hero */
-.hero{padding:44px 0 40px;background:radial-gradient(ellipse at 75% 40%,#15120a 0,#000 65%)}
+.hero{padding:44px 0 40px;background:radial-gradient(ellipse at 75% 40%,#3a3d42 0,#23262b 65%)}
 .hero .wrap{display:grid;grid-template-columns:1.15fr .85fr;gap:40px;align-items:center}
 .hero h1{font-size:clamp(28px,5vw,48px);line-height:1.15;margin:0 0 18px}
 .hero h1 em{font-style:normal;color:var(--gold-hi)}
@@ -74,7 +74,7 @@ nav .wrap{display:flex;align-items:center;justify-content:space-between;height:6
 .btn.ghost{color:var(--gold-hi)}
 .btn.ghost:hover{background:rgba(201,162,39,.12)}
 .hero-art{text-align:center}
-.hero-art img.portrait{width:min(380px,86%);aspect-ratio:5/6;object-fit:cover;object-position:center top;border-radius:50%;border:2px solid var(--gold);box-shadow:0 0 0 7px #0c0e12,0 0 0 8px rgba(201,162,39,.4);margin:0 auto}
+.hero-art img.portrait{width:min(380px,86%);aspect-ratio:5/6;object-fit:cover;object-position:center top;border-radius:50%;border:2px solid var(--gold);box-shadow:0 0 0 7px #30343a,0 0 0 8px rgba(201,162,39,.4);margin:0 auto}
 .hero-art img.logo{width:130px;margin:0 auto}
 .copy{font-size:13px;color:var(--text-lo);margin:8px 0 0}
 @media(max-width:860px){.hero .wrap{grid-template-columns:1fr}.hero-art{order:-1}.hero-art img.portrait{width:min(320px,88%)}}
@@ -89,7 +89,7 @@ nav .wrap{display:flex;align-items:center;justify-content:space-between;height:6
 .grid2{display:grid;grid-template-columns:repeat(2,1fr);gap:22px}
 @media(max-width:860px){.grid3,.grid2{grid-template-columns:1fr}}
 .card{background:var(--char2);border:1px solid var(--line);border-radius:14px;padding:26px}
-.alt .card{background:#0c0e12}
+.alt .card{background:#30343a}
 .card h3{font-size:17px;margin:0 0 10px;color:var(--gold-hi)}
 .card p{margin:0}
 .sar p+p{margin-top:10px}
@@ -99,7 +99,7 @@ nav .wrap{display:flex;align-items:center;justify-content:space-between;height:6
 .tl{position:relative;margin-top:10px;padding-left:34px}
 .tl:before{content:"";position:absolute;left:9px;top:6px;bottom:6px;width:2px;background:linear-gradient(var(--gold),#6b5714)}
 .role{position:relative;margin:0 0 22px}
-.role:before{content:"";position:absolute;left:-33px;top:26px;width:14px;height:14px;border-radius:50%;background:#000;border:2px solid var(--gold)}
+.role:before{content:"";position:absolute;left:-33px;top:26px;width:14px;height:14px;border-radius:50%;background:#23262b;border:2px solid var(--gold)}
 .role.now:before{background:var(--gold)}
 .role h3{font-size:17px;line-height:1.35}
 .org{color:var(--gold-hi);font-family:'Rajdhani',sans-serif;font-weight:600;font-size:18px;letter-spacing:.04em}
@@ -114,7 +114,7 @@ details[open] .more:after{content:" \2212"}
 .eng{margin:0 0 22px;padding-left:18px;border-left:2px solid var(--gold)}
 .eng h5{font-family:'Orbitron',sans-serif;color:var(--text-hi);font-size:15px;line-height:1.35;margin:0}
 .eng .when{margin-bottom:6px}
-.rcard{background:#0c0e12;border:1px solid var(--line);border-radius:14px;padding:20px 24px}
+.rcard{background:#30343a;border:1px solid var(--line);border-radius:14px;padding:20px 24px}
 .rcard ul{margin:8px 0 0;padding-left:20px}
 .rsum{margin:8px 0 0}
 details.fd{margin-top:14px}
@@ -123,12 +123,12 @@ details.fd summary::-webkit-details-marker{display:none}
 .rcard .full{padding:6px 0 0}
 #summary .lead{max-width:980px}
 .ach{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin:0 0 40px}
-.ach div{background:var(--char2);border:1px solid var(--line);border-top:3px solid var(--gold);border-radius:12px;padding:20px 22px;color:var(--text-hi);font-size:15.5px;line-height:1.55}
+.ach div{background:var(--char2);border:1px solid var(--line);border-top:6px solid var(--gold);border-radius:12px;padding:20px 22px;color:var(--text-hi);font-size:15.5px;line-height:1.55}
 .comp{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
-.comp span{background:var(--char);border:1px solid var(--line);border-radius:10px;padding:12px 16px 12px 34px;font-size:14.5px;color:var(--text-hi);position:relative;line-height:1.4}
-.comp span:before{content:"";position:absolute;left:16px;top:50%;width:7px;height:7px;margin-top:-3px;background:var(--gold);transform:rotate(45deg)}
+.comp span{background:var(--char);border:1px solid var(--line);border-radius:10px;display:flex;align-items:center;gap:12px;padding:12px 16px;font-size:14.5px;color:var(--text-hi);line-height:1.4}
+.comp span:before{content:"";flex:none;width:7px;height:7px;background:var(--gold);transform:rotate(45deg)}
 @media(max-width:860px){.ach{grid-template-columns:1fr}.comp{grid-template-columns:1fr 1fr}}
-@media(max-width:480px){.comp span{padding:11px 8px 11px 26px;font-size:13.5px}.comp span:before{left:10px}}
+@media(max-width:480px){.comp span{padding:11px 10px;gap:9px;font-size:13.5px}}
 .card .edu-list{margin:0}
 .edu-list li:last-child{border-bottom:none}
 .tools{list-style:none;margin:0;padding:0}
@@ -137,20 +137,34 @@ details.fd summary::-webkit-details-marker{display:none}
 .cname{color:var(--text-hi);font-size:15.5px;line-height:1.45}
 .cdet{color:var(--text-lo);font-size:14px;margin-top:4px}
 .card h4{margin-bottom:12px}
+.light{color:var(--text-mid);background:#D9D1CB;--char:#fff;--char2:#fff;--text-hi:#16181d;--text-mid:#3a3d44;--text-lo:#6a6e76;--line:#bfb5ad;--gold:#6F5507;--gold-hi:#5F4905}
+.light.l2{background:#E6E1DD}
+.light .rcard{background:#fff}
+.light .role:before{background:#E6E1DD}
+.light .role.now:before{background:var(--gold)}
+.light .ach div,.light .comp span,.light .card{box-shadow:0 1px 2px rgba(60,50,20,.06)}
+.light .tag{background:rgba(154,123,18,.14)}
+.light .rcard,.light .ach div,.light .comp span,.light .card{background:#30343a;border-color:#4a4f57;--text-hi:#F3F1EA;--text-mid:#B9BDC6;--text-lo:#8A909C;--gold:#C9A227;--gold-hi:#E6C558;--line:#4a4f57;color:var(--text-mid);box-shadow:0 2px 8px rgba(40,30,20,.22)}
+.light .comp span{color:var(--text-hi)}
+.light .ach div{background:#33373d;color:var(--text-hi);border-top-color:#C9A227}
+.light .tag{background:rgba(201,162,39,.16)}
+.rcard,.card.gb{border-top:6px solid var(--gold)}
+.role:before{top:31px!important}
+.light .rcard,.light .card.gb{border-top:6px solid #C9A227}
 .tag{display:inline-block;background:rgba(201,162,39,.14);color:var(--gold-hi);border-radius:999px;padding:2px 12px;font-size:12px;font-family:'Rajdhani',sans-serif;font-weight:700;letter-spacing:.1em;text-transform:uppercase;margin-bottom:8px}
 .ricoh-bar{margin:0 0 18px;padding:12px 18px;border-left:3px solid var(--gold);color:var(--text-hi)}
 .tools-btn{background:none;border:1px solid var(--line);color:var(--text-mid);border-radius:999px;padding:8px 18px;cursor:pointer;font-family:'Rajdhani',sans-serif;font-weight:700;letter-spacing:.1em;text-transform:uppercase;margin-bottom:14px}
 .tools-btn:hover{border-color:var(--gold);color:var(--gold-hi)}
 /* chips */
 .chips{display:flex;flex-wrap:wrap;gap:10px}
-.chip{border:1px solid var(--line);background:#0c0e12;border-radius:999px;padding:6px 16px;font-size:14px;color:var(--text-mid)}
+.chip{border:1px solid var(--line);background:#30343a;border-radius:999px;padding:6px 16px;font-size:14px;color:var(--text-mid)}
 h4{font-family:'Rajdhani',sans-serif;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);font-size:15px;margin:0 0 12px}
 .edu-list{list-style:none;margin:0 0 28px;padding:0}
 .edu-list li{padding:10px 0;border-bottom:1px solid var(--line)}
 .edu-list li span{color:var(--text-lo);font-size:14px;display:block}
 /* about */
 .about{display:grid;grid-template-columns:.8fr 1.2fr;gap:44px;align-items:center}
-.about img{border-radius:16px;border:1px solid var(--gold);box-shadow:0 0 0 6px #0c0e12,0 0 0 7px rgba(201,162,39,.4);width:100%;max-width:400px;margin:0 auto}
+.about img{border-radius:16px;border:1px solid var(--gold);box-shadow:0 0 0 6px #30343a,0 0 0 7px rgba(201,162,39,.4);width:100%;max-width:400px;margin:0 auto}
 .about p{margin:0 0 16px}
 @media(max-width:860px){.about{grid-template-columns:1fr}}
 /* contact */
@@ -161,7 +175,7 @@ h4{font-family:'Rajdhani',sans-serif;letter-spacing:.14em;text-transform:upperca
 .clinks{margin-top:26px;color:var(--text-mid)}
 .clinks a{margin:0 10px}
 /* footer */
-footer{background:#000;border-top:1px solid var(--line);padding:28px 0;text-align:center}
+footer{background:#1f2226;border-top:1px solid var(--line);padding:28px 0;text-align:center}
 footer img{width:90px;margin:0 auto 4px}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 </style>
@@ -199,46 +213,40 @@ footer img{width:90px;margin:0 auto 4px}
  </div>
 </header>
 
-<section id="summary">
+<section class="light" id="summary">
  <div class="wrap">
   <p class="eyebrow">Executive Summary</p>
   <h2 class="sec-title">Summary</h2>
   <p class="lead">Commercial Strategy and Business Transformation Executive with 20+ years of experience, including 13 years in enterprise technology sales at Ricoh USA. Led account teams of specialists across sales, services, and technology for a portfolio of Fortune 500 and national accounts, and earlier managed direct reports and large contractor teams. Aligned strategy, operations, technology, and customer objectives to drive revenue growth, improve profitability, and lead complex organizational change across sales, operations, IT, finance, legal, procurement, and service delivery. Most recently led the early stages of commercialization of an agentic AI platform at Critical Insight. Seeking Director and Senior Director opportunities, as well as senior individual contributor roles in strategic accounts.</p>
   <h4>Key Achievements</h4>
   <div class="ach">
-   <div>Managed strategic enterprise portfolios exceeding $15M annually.</div>
-   <div>Led enterprise transformation initiatives across sales, operations, IT, finance, service delivery, and managed services teams, guiding technology modernization, workflow automation, SaaS adoption, and process transformation across Fortune 500 organizations.</div>
+   <div>Managed strategic enterprise portfolios exceeding $15M annually and guided technology modernization, workflow automation, SaaS adoption, and process transformation initiatives across Fortune 500 organizations.</div>
+   <div>Led enterprise transformation initiatives spanning sales, operations, IT, finance, service delivery, and managed services teams.</div>
    <div>Raised margins by over 10% on a $2.5M enterprise agreement by replacing a volume-based model with a scope-based commercial structure.</div>
    <div>Developed commercial strategy and go-to-market architecture for an agentic AI governance platform.</div>
   </div>
   <h4>Core Competencies</h4>
   <div class="comp">
    <span>AI Strategy</span>
-   <span>Emerging Technology Adoption</span>
    <span>Agentic AI and Workflow Automation</span>
-   <span>Digital Transformation</span>
    <span>Business Transformation</span>
    <span>Change Management</span>
    <span>Organizational Leadership</span>
-   <span>Process Optimization</span>
    <span>Kaizen and Continuous Improvement</span>
    <span>Go-to-Market Strategy</span>
    <span>Commercial Strategy</span>
    <span>RFP Strategy</span>
    <span>Enterprise Technology Sales</span>
    <span>Strategic Account Management</span>
-   <span>Executive Stakeholder Management</span>
    <span>Revenue Growth</span>
    <span>Cross-Functional Leadership</span>
-   <span>Quality Management Systems</span>
    <span>Contract Negotiation</span>
-   <span>SaaS and Cloud</span>
    <span>Governance and Compliance</span>
   </div>
  </div>
 </section>
 
-<section class="alt" id="experience">
+<section class="light l2" id="experience">
  <div class="wrap">
   <p class="eyebrow">Experience</p>
   <h2 class="sec-title">Professional Experience</h2>
@@ -347,23 +355,23 @@ footer img{width:90px;margin:0 auto 4px}
  </div>
 </section>
 
-<section id="credentials">
+<section class="light" id="credentials">
  <div class="wrap">
   <p class="eyebrow">Credentials</p>
   <h2 class="sec-title" style="margin-bottom:22px">Education and Certifications</h2>
   <h4>Education</h4>
   <div class="grid2" style="margin-bottom:28px">
-   <div class="card"><div class="cname">Master of Science in Organizational Leadership and Quality (MSOLQ)</div><div class="cdet">Marian University | 2007</div></div>
-   <div class="card"><div class="cname">Bachelor of Science in Organizational Communication</div><div class="cdet">Marian University | 2005</div></div>
+   <div class="card gb"><div class="cname">Master of Science in Organizational Leadership and Quality (MSOLQ)</div><div class="cdet">Marian University | 2007</div></div>
+   <div class="card gb"><div class="cname">Bachelor of Science in Organizational Communication</div><div class="cdet">Marian University | 2005</div></div>
   </div>
   <h4>Certifications</h4>
   <div class="grid2">
-   <div class="card"><div class="cname">Change Management</div><div class="cdet">LinkedIn Learning | 2026</div></div>
-   <div class="card"><div class="cname">AI and Business Strategy</div><div class="cdet">Milwaukee School of Engineering | 2025</div></div>
-   <div class="card"><div class="cname">Microsoft Azure AI Essentials Professional Certificate</div><div class="cdet">Microsoft and LinkedIn | 2025</div></div>
-   <div class="card"><div class="cname">Microsoft Security Essentials Professional Certificate</div><div class="cdet">Microsoft and LinkedIn | 2025</div></div>
-   <div class="card"><div class="cname">Principles of Management</div><div class="cdet">MRA - The Management Association | 2008</div></div>
-   <div class="card"><div class="cname">ISO 9001 Internal Quality Auditor</div><div class="cdet">Iverson Language Associates | 2008</div></div>
+   <div class="card gb"><div class="cname">Change Management</div><div class="cdet">LinkedIn Learning | 2026</div></div>
+   <div class="card gb"><div class="cname">AI and Business Strategy</div><div class="cdet">Milwaukee School of Engineering | 2025</div></div>
+   <div class="card gb"><div class="cname">Microsoft Azure AI Essentials Professional Certificate</div><div class="cdet">Microsoft and LinkedIn | 2025</div></div>
+   <div class="card gb"><div class="cname">Microsoft Security Essentials Professional Certificate</div><div class="cdet">Microsoft and LinkedIn | 2025</div></div>
+   <div class="card gb"><div class="cname">Principles of Management</div><div class="cdet">MRA - The Management Association | 2008</div></div>
+   <div class="card gb"><div class="cname">ISO 9001 Internal Quality Auditor</div><div class="cdet">Iverson Language Associates | 2008</div></div>
   </div>
   <p class="eyebrow" style="margin-top:44px">Tools</p>
   <h2 class="sec-title" style="margin-bottom:22px">Platforms I Work In</h2>
