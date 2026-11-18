@@ -87,8 +87,9 @@ nav .wrap{display:flex;align-items:center;justify-content:space-between;height:6
 @media(max-width:700px){.proof .wrap{grid-template-columns:1fr 1fr}}
 /* cards */
 .grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.grid3.tools4{grid-template-columns:repeat(2,1fr)}
 .grid2{display:grid;grid-template-columns:repeat(2,1fr);gap:22px}
-@media(max-width:860px){.grid3,.grid2{grid-template-columns:1fr}}
+@media(max-width:860px){.grid3,.grid2,.grid3.tools4{grid-template-columns:1fr}}
 .card{background:var(--char2);border:1px solid var(--line);border-radius:14px;padding:26px}
 .alt .card{background:#30343a}
 .card h3{font-size:17px;margin:0 0 10px;color:var(--gold-hi)}
@@ -384,10 +385,11 @@ footer img{width:90px;margin:0 auto 4px}
   </div>
   <p class="eyebrow" style="margin-top:44px">Tools</p>
   <h2 class="sec-title" style="margin-bottom:22px">Platforms I Work In</h2>
-  <div class="grid3">
+  <div class="grid3 tools4">
    <div class="card"><h4>Sales and Marketing</h4><ul class="tools"><li>Salesforce</li><li>Oracle CRM</li><li>Highspot</li><li>DocuSign</li><li>Marketo</li><li>Eloqua</li><li>Google Analytics</li></ul></div>
-   <div class="card"><h4>AI and Automation</h4><ul class="tools"><li>CognOS</li><li>Claude</li><li>ChatGPT</li><li>Microsoft Copilot</li><li>Google Gemini</li></ul></div>
-   <div class="card"><h4>Enterprise Platforms</h4><ul class="tools"><li>Streamline NX</li><li>CloudStream</li><li>SAP device compliance</li><li>DocuWare</li><li>PaperCut</li><li>Tungsten Automation</li><li>Microsoft 365</li><li>Google Workspace</li></ul></div>
+   <div class="card"><h4>AI and Automation</h4><ul class="tools"><li>CognOS</li><li>Claude</li><li>ChatGPT</li><li>Microsoft Copilot</li><li>Google Gemini</li><li>Perplexity</li></ul></div>
+   <div class="card"><h4>Enterprise Platforms</h4><ul class="tools"><li>Streamline NX</li><li>CloudStream</li><li>SAP device compliance</li><li>DocuWare</li><li>PaperCut</li><li>Tungsten Automation</li></ul></div>
+   <div class="card"><h4>Collaboration and Creative</h4><ul class="tools"><li>Microsoft 365</li><li>Google Workspace</li><li>Slack</li><li>Adobe</li></ul></div>
   </div>
  </div>
 </section>
