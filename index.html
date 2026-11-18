@@ -187,7 +187,7 @@ footer img{width:90px;margin:0 auto 4px}
    <p class="eyebrow">Open to full-time roles</p>
    <h1>Dusty-Lynn Brown, MSOLQ</h1>
    <p class="sub">Enterprise Strategy | Business Transformation | Commercial Leadership | AI Enablement</p>
-   <p class="intro">South Milwaukee, WI<br><a href="mailto:dustylynnbrown@gmail.com">dustylynnbrown@gmail.com</a><br><a href="https://www.linkedin.com/in/dustylynnbrown" target="_blank" rel="noopener">linkedin.com/in/dustylynnbrown</a></p>
+   <p class="intro">South Milwaukee, WI<br><a class="em" data-u="dustylynnbrown" data-d="gmail.com" data-show="1" href="#contact">dustylynnbrown [at] gmail [dot] com</a><br><a href="https://www.linkedin.com/in/dustylynnbrown" target="_blank" rel="noopener">linkedin.com/in/dustylynnbrown</a></p>
    <div class="btns">
     <a class="btn fill" href="#summary">Read My Resume</a>
     <a class="btn ghost" href="#contact">Contact</a>
@@ -390,7 +390,7 @@ footer img{width:90px;margin:0 auto 4px}
   <h2 class="sec-title">Let's talk about what's next</h2>
   <div class="btns">
    <a class="btn fill" href="https://cal.com/dusty-brown-kdixvn/1" target="_blank" rel="noopener">Book a Conversation</a>
-   <a class="btn ghost" href="mailto:dustylynnbrown@gmail.com">Send an Email</a>
+   <a class="btn ghost em" data-u="dustylynnbrown" data-d="gmail.com" href="#contact">Send an Email</a>
   </div>
   <p class="clinks"><a href="https://www.linkedin.com/in/dustylynnbrown" target="_blank" rel="noopener">LinkedIn</a> | Milwaukee, WI</p>
  </div>
@@ -403,6 +403,7 @@ footer img{width:90px;margin:0 auto 4px}
 
 <script>
 (function(){
+ document.querySelectorAll('a.em').forEach(function(a){var m=a.getAttribute('data-u')+'@'+a.getAttribute('data-d');a.href='mailto:'+m;if(a.getAttribute('data-show'))a.textContent=m});
  var b=document.getElementById('burger'),l=document.getElementById('links');
  b.addEventListener('click',function(){var o=l.classList.toggle('open');b.setAttribute('aria-expanded',o)});
  l.addEventListener('click',function(e){if(e.target.tagName==='A'){l.classList.remove('open');b.setAttribute('aria-expanded',false)}});
